@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+# Never commit personal data: inventory exports, chat logs, tracker state.
+*.csv
+*.tsv
+*.log
+*.db
+*.db-journal
+state*.json

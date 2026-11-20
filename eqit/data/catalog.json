@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "refining": [
+    {"input": "Corria Timber", "input_qty": 1, "output": "Corria Veneer", "output_qty": 20},
+    {"input": "Miluca Timber", "input_qty": 1, "output": "Miluca Veneer", "output_qty": 5},
+    {"input": "Hekia Timber", "input_qty": 1, "output": "Hekia Veneer", "output_qty": 15},
+    {"input": "Arkace Timber", "input_qty": 1, "output": "Arkace Veneer", "output_qty": 10},
+    {"input": "Soft Hide", "input_qty": 3, "output": "Soft Leather", "output_qty": 1},
+    {"input": "Animal Hide", "input_qty": 3, "output": "Generic Leather", "output_qty": 1},
+    {"input": "Thin Wool", "input_qty": 3, "output": "Wool Thread", "output_qty": 1},
+    {"input": "Wool", "input_qty": 3, "output": "Wool Cloth", "output_qty": 1}
+  ],
+  "quests": [
+    {
+      "id": "viceroy",
+      "name": "Viceroy Armor",
+      "npc": "Bill",
+      "npc_location": "Celeste Quarry",
+      "source": "https://www.arkadiaarchive.com/viceroyarmor",
+      "stages": [
+        {"name": "Arm Guards", "hand_in": [
+          {"item": "Corria Veneer", "quantity": 2000},
+          {"item": "Soft Leather", "quantity": 100},
+          {"item": "Paint Can (Yellow)", "quantity": 400},
+          {"item": "Electronic Stabilizing Component", "quantity": 100},
+          {"item": "Animal Oil Residue", "quantity": 800}]},
+        {"name": "Foot Guards", "hand_in": [
+          {"item": "Miluca Veneer", "quantity": 2000},
+          {"item": "Socket II Component", "quantity": 300},
+          {"item": "Paint Can (Brown)", "quantity": 100},
+          {"item": "Animal Oil Residue", "quantity": 900},
+          {"item": "Blazar Fragment", "quantity": 1000}]},
+        {"name": "Gloves", "hand_in": [
+          {"item": "Miluca Veneer", "quantity": 2000},
+          {"item": "Socket I Component", "quantity": 200},
+          {"item": "Paint Can (Green)", "quantity": 100},
+          {"item": "Animal Oil Residue", "quantity": 700},
+          {"item": "Nova Fragment", "quantity": 1000}]},
+        {"name": "Harness", "hand_in": [
+          {"item": "Hekia Veneer", "quantity": 3000},
+          {"item": "Generic Leather", "quantity": 1100},
+          {"item": "Paint Can (Orange)", "quantity": 3000},
+          {"item": "Animal Muscle Oil", "quantity": 1000},
+          {"item": "Animal Oil Residue", "quantity": 2100}]},
+        {"name": "Shin Guards", "hand_in": [
+          {"item": "Arkace Veneer", "quantity": 2000},
+          {"item": "Wool Thread", "quantity": 40},
+          {"item": "Animal Thyroid Oil", "quantity": 200},
+          {"item": "Animal Oil Residue", "quantity": 700},
+          {"item": "Explosive Projectiles", "quantity": 70000}]},
+        {"name": "Thigh Guards", "hand_in": [
+          {"item": "Corria Veneer", "quantity": 2000},
+          {"item": "Wool Cloth", "quantity": 50},
+          {"item": "Animal Adrenal Oil", "quantity": 100},
+          {"item": "Animal Oil Residue", "quantity": 700},
+          {"item": "Explosive Projectiles", "quantity": 70000}]},
+        {"name": "Helmet", "hand_in": [
+          {"item": "Arkace Veneer", "quantity": 2200},
+          {"item": "Socket III Component", "quantity": 220},
+          {"item": "Animal Eye Oil", "quantity": 440},
+          {"item": "Animal Oil Residue", "quantity": 800},
+          {"item": "Tier I Component", "quantity": 40}]}
+      ]
+    },
+    {
+      "id": "viceroy_adjusted",
+      "name": "Viceroy Adjusted",
+      "npc": "Bill",
+      "npc_location": "Celeste Quarry",
+      "ordered": false,
+      "source": "https://entropia-universe-mmorpg.blogspot.com/2017/04/upgrading-viceroy-armor.html",
+      "more_sources": ["https://arkadiaforum.com/threads/planet-arkadia-update-2016-5-release-notes-7th-december-2016.13882/", "https://www.arkadiaarchive.com/viceroyarmor"],
+      "stages": [
+        {"name": "Arm Guards", "hand_in": [{"item": "Adjusted Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Ospra Ingot", "quantity": 30}], "manual": [{"id": "prior", "text": "Full-TT base Viceroy Arm Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Base Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Musca (L) arm guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Musca (L), full TT"}]},
+        {"name": "Foot Guards", "hand_in": [{"item": "Adjusted Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Ospra Ingot", "quantity": 30}], "manual": [{"id": "prior", "text": "Full-TT base Viceroy Foot Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Base Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Musca (L) foot guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Musca (L), full TT"}]},
+        {"name": "Gloves", "hand_in": [{"item": "Adjusted Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Ospra Ingot", "quantity": 30}], "manual": [{"id": "prior", "text": "Full-TT base Viceroy Gloves (same body part and gender; do not mix normal and Skullcandy)", "hud": "Base Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Musca (L) gloves piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Musca (L), full TT"}]},
+        {"name": "Harness", "hand_in": [{"item": "Adjusted Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Ospra Ingot", "quantity": 30}], "manual": [{"id": "prior", "text": "Full-TT base Viceroy Harness (same body part and gender; do not mix normal and Skullcandy)", "hud": "Base Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Musca (L) harness piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Musca (L), full TT"}]},
+        {"name": "Shin Guards", "hand_in": [{"item": "Adjusted Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Ospra Ingot", "quantity": 30}], "manual": [{"id": "prior", "text": "Full-TT base Viceroy Shin Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Base Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Musca (L) shin guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Musca (L), full TT"}]},
+        {"name": "Thigh Guards", "hand_in": [{"item": "Adjusted Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Ospra Ingot", "quantity": 30}], "manual": [{"id": "prior", "text": "Full-TT base Viceroy Thigh Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Base Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Musca (L) thigh guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Musca (L), full TT"}]},
+        {"name": "Helmet", "hand_in": [{"item": "Adjusted Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Ospra Ingot", "quantity": 30}], "manual": [{"id": "prior", "text": "Full-TT base Viceroy Helmet (same body part and gender; do not mix normal and Skullcandy)", "hud": "Base Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Musca (L) helmet piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Musca (L), full TT"}]}
+      ]
+    },
+    {
+      "id": "viceroy_improved",
+      "name": "Viceroy Improved",
+      "npc": "Bill",
+      "npc_location": "Celeste Quarry",
+      "ordered": false,
+      "source": "https://entropia-universe-mmorpg.blogspot.com/2017/04/upgrading-viceroy-armor.html",
+      "more_sources": ["https://arkadiaforum.com/threads/planet-arkadia-update-2016-5-release-notes-7th-december-2016.13882/", "https://www.arkadiaarchive.com/viceroyarmor"],
+      "stages": [
+        {"name": "Arm Guards", "hand_in": [{"item": "Improved Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Banite Ingot", "quantity": 10}], "manual": [{"id": "prior", "text": "Full-TT Adjusted Viceroy Arm Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Adj. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Canis (L) arm guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Canis (L), full TT"}]},
+        {"name": "Foot Guards", "hand_in": [{"item": "Improved Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Banite Ingot", "quantity": 10}], "manual": [{"id": "prior", "text": "Full-TT Adjusted Viceroy Foot Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Adj. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Canis (L) foot guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Canis (L), full TT"}]},
+        {"name": "Gloves", "hand_in": [{"item": "Improved Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Banite Ingot", "quantity": 10}], "manual": [{"id": "prior", "text": "Full-TT Adjusted Viceroy Gloves (same body part and gender; do not mix normal and Skullcandy)", "hud": "Adj. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Canis (L) gloves piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Canis (L), full TT"}]},
+        {"name": "Harness", "hand_in": [{"item": "Improved Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Banite Ingot", "quantity": 10}], "manual": [{"id": "prior", "text": "Full-TT Adjusted Viceroy Harness (same body part and gender; do not mix normal and Skullcandy)", "hud": "Adj. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Canis (L) harness piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Canis (L), full TT"}]},
+        {"name": "Shin Guards", "hand_in": [{"item": "Improved Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Banite Ingot", "quantity": 10}], "manual": [{"id": "prior", "text": "Full-TT Adjusted Viceroy Shin Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Adj. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Canis (L) shin guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Canis (L), full TT"}]},
+        {"name": "Thigh Guards", "hand_in": [{"item": "Improved Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Banite Ingot", "quantity": 10}], "manual": [{"id": "prior", "text": "Full-TT Adjusted Viceroy Thigh Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Adj. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Canis (L) thigh guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Canis (L), full TT"}]},
+        {"name": "Helmet", "hand_in": [{"item": "Improved Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Banite Ingot", "quantity": 10}], "manual": [{"id": "prior", "text": "Full-TT Adjusted Viceroy Helmet (same body part and gender; do not mix normal and Skullcandy)", "hud": "Adj. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Canis (L) helmet piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Canis (L), full TT"}]}
+      ]
+    },
+    {
+      "id": "viceroy_modified",
+      "name": "Viceroy Modified",
+      "npc": "Bill",
+      "npc_location": "Celeste Quarry",
+      "ordered": false,
+      "source": "https://entropia-universe-mmorpg.blogspot.com/2017/04/upgrading-viceroy-armor.html",
+      "more_sources": ["https://arkadiaforum.com/threads/planet-arkadia-update-2016-5-release-notes-7th-december-2016.13882/", "https://www.arkadiaarchive.com/viceroyarmor"],
+      "stages": [
+        {"name": "Arm Guards", "hand_in": [{"item": "Modified Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Zulax Ingot", "quantity": 4}], "manual": [{"id": "prior", "text": "Full-TT Improved Viceroy Arm Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Impr. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Lupus (L) arm guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Lupus (L), full TT"}]},
+        {"name": "Foot Guards", "hand_in": [{"item": "Modified Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Zulax Ingot", "quantity": 4}], "manual": [{"id": "prior", "text": "Full-TT Improved Viceroy Foot Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Impr. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Lupus (L) foot guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Lupus (L), full TT"}]},
+        {"name": "Gloves", "hand_in": [{"item": "Modified Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Zulax Ingot", "quantity": 4}], "manual": [{"id": "prior", "text": "Full-TT Improved Viceroy Gloves (same body part and gender; do not mix normal and Skullcandy)", "hud": "Impr. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Lupus (L) gloves piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Lupus (L), full TT"}]},
+        {"name": "Harness", "hand_in": [{"item": "Modified Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Zulax Ingot", "quantity": 4}], "manual": [{"id": "prior", "text": "Full-TT Improved Viceroy Harness (same body part and gender; do not mix normal and Skullcandy)", "hud": "Impr. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Lupus (L) harness piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Lupus (L), full TT"}]},
+        {"name": "Shin Guards", "hand_in": [{"item": "Modified Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Zulax Ingot", "quantity": 4}], "manual": [{"id": "prior", "text": "Full-TT Improved Viceroy Shin Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Impr. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Lupus (L) shin guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Lupus (L), full TT"}]},
+        {"name": "Thigh Guards", "hand_in": [{"item": "Modified Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Zulax Ingot", "quantity": 4}], "manual": [{"id": "prior", "text": "Full-TT Improved Viceroy Thigh Guards (same body part and gender; do not mix normal and Skullcandy)", "hud": "Impr. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Lupus (L) thigh guards piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Lupus (L), full TT"}]},
+        {"name": "Helmet", "hand_in": [{"item": "Modified Nanites", "quantity": 2}, {"item": "Bismuth Plating", "quantity": 100}, {"item": "Zulax Ingot", "quantity": 4}], "manual": [{"id": "prior", "text": "Full-TT Improved Viceroy Helmet (same body part and gender; do not mix normal and Skullcandy)", "hud": "Impr. Viceroy, full TT"}, {"id": "donor", "text": "Full-TT Lupus (L) helmet piece (same body part and gender; do not mix normal and Skullcandy)", "hud": "Lupus (L), full TT"}]}
+      ]
+    }
+  ]
+}
