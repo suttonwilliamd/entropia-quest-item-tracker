@@ -1,6 +1,8 @@
 # Entropia Quest Item Tracker
 
-A standalone Windows app with two windows:
+A standalone Windows app for answering “what am I still missing for this quest?” Start by importing a full inventory export, then choose a quest, stage, and the storage locations to count. A changes-only export is not a full picture of your holdings.
+
+The app has two windows:
 
 - **Main window**: import or reimport the inventory export, choose which locations count, pick a quest and stage, and set the HUD (show/hide, opacity, always on top). The top of the window shows the shortfall left after refining and one action line, for example "Refine 100 Corria Timber, 75 Soft Hide, then gather the rest". A collapsed **Details** section holds the ready-now Have / Short / +Refinable columns, the AU labels box, the import file information and the source.
 - **Quest HUD**: a small separate borderless window, with no title bar and no minimize, maximize or close buttons (about 210×155 px at 100% DPI). Drag it by its body to move it. The small × hides the HUD and does not close the app. It shows the quest, the stage and each item's held have/need. It never shows values, locations, the NPC position or refinable amounts. It starts hidden every time the app opens.
